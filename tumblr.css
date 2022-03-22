@@ -14,3 +14,19 @@ html{
     justify-content: center;
     align-items: center;
 }
+a{
+    color: inherit;
+}
+footer>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin:1rem;
+    padding: 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
