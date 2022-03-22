@@ -4,5 +4,12 @@
 
 html{
     color:#ffffff;
-    font-family: hele;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url(backgroundimage.jpg);
+}
+.main{
+    display:flex
+    flex-direction:column;
+    justify-content:center;
 }
