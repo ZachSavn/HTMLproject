@@ -20,6 +20,7 @@
         </form>
         <button class="logbuttons">Sign up</button>
       </header>
+      <a href="https://www.tumblr.com/">Tumblr</a>
       <!--create log in form-->
       <form id="login">
         <input
@@ -29,7 +30,7 @@
           placeholder="Email"
           required
         />
-        <br />
+        <br/>
         <input
           type="password"
           id="password"
@@ -37,15 +38,17 @@
           placeholder="Password"
           required
         />
-        <p>
+        <p class="legalinfo">
           By clicking log in, or continuing with the other options below, you
-          agree to Tumblr's <u>Terms of Service</u> amd have read the
-          <u>Privacy Police</u>
+          agree to Tumblr's <a href="https://www.tumblr.com/policy/en/terms-of-service"><u>Terms of Service</u></a> and have read the
+          <a href="https://www.tumblr.com/privacy"><u>Privacy Police</u></a>
         </p>
         <button type="submit" form="login" class="logbuttons">Log in</button>
       </form>
-      <p>Forgot your password?</p>
-      <hr />
+      <div class="passwordlink">
+        <a href="https://www.tumblr.com/forgot_password">Forgot your password?</a>
+      </div>
+      
     </main>
     <!--other logins-->
     <div class="linkbuttons">
@@ -54,17 +57,23 @@
       <button>Continue with Apple</button>
     </div>
     <div>
-      <p>New to Tumblr? <u>Sign up!</u></p>
+      <p>New to Tumblr? <a href="https://www.tumblr.com/register?source=new_to_tumblr"><u>Sign up!</u></a></p>
     </div>
-    <div>
-      <footer>
+      <footer id="footer">
         <ul>
-          <li>Terms</li>
-          <li>Privacy</li>
-          <li>Jobs</li>
-          <li>Support</li>
+          <li>
+            <a href="https://www.tumblr.com/policy/en/terms-of-service">Terms</a>
+          </li>
+          <li>
+            <a href="https://www.tumblr.com/privacy">Privacy</a>
+          </li>
+          <li>
+            <a href="https://www.tumblr.com/jobs">Jobs</a>
+          </li>
+          <li>
+            <a href="https://www.tumblr.com/support">Support</a>
+          </li>
         </ul>
-      </footer>
-    </div>
+    </footer> 
   </body>
 </html>
