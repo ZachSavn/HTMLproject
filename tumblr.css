@@ -8,7 +8,7 @@ html{
     font-size: 16px;
     background-image: url(backgroundimage.jpg);
 }
-.empass,p,.logbuttons{
+.empass,p,.logbuttons, .logbuttons2{
     display: flex;
     flex-direction: column;
     justify-content: center;
