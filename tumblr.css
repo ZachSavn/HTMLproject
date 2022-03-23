@@ -1,26 +1,49 @@
 *{
     box-sizing: border-box;
 }
-
+/*set general rules for html elements*/
 html{
     color:#ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Favorit", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     background-image: url(backgroundimage.jpg);
 }
-.empass,p,.logbuttons, .logbuttons2{
+/*style header at head and space between button and search*/
+header{
+height: 54px;
+margin: auto;
+max-width: 1716px;
+padding-left: 22px;
+padding-right: 20px;
+width: 100%;
+display:flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+/*style all middle contents to center of page*/
+.empass,p,.logbuttons,.logbuttons2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+/*keeps links same color*/
 a{
     color: inherit;
 }
+.logbuttons{
+    background-color: #00b8ff;
+
+}
+.legalinfo{
+    font-size: 12px;
+}
+/*horizontal footer*/
 footer>ul>li{
     list-style: none;
     display: inline-block;    
 }
+/*keeps footer at bottom and space between tag and links*/
 footer{
     position: relative;
     bottom: 12px;
