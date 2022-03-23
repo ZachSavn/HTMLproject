@@ -19,20 +19,15 @@ a{
 }
 footer>ul>li{
     list-style: none;
-    display: inline-block;
-    margin:1rem;
-    padding: 0;
+    display: inline-block;    
 }
 footer{
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 12px;
     color: inherit;
     font-size: inherit;
     font-family: inherit;
-}
-.posted{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    display:flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
