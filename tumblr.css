@@ -26,6 +26,7 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 /*keeps links same color*/
 a{
@@ -46,10 +47,12 @@ footer>ul>li{
 /*keeps footer at bottom and space between tag and links*/
 footer{
     position: relative;
-    bottom: 12px;
+    width: 100%;
+    bottom: -110px;
     color: inherit;
     font-size: inherit;
     font-family: inherit;
+    vertical-align: baseline;
     display:flex;
     align-items: flex-end;
     justify-content: space-between;
