@@ -20,6 +20,35 @@ display:flex;
 align-items: flex-start;
 justify-content: space-between;
 }
+/*specific style to search bar*/
+#search{
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px;
+    line-height: 1.5;
+    width: 450px;
+    border: thin;
+}
+#signup{
+    margin-top: 11px;
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+}
+input{
+    width: 400px;
+    padding: 11px;
+    margin-top: 11px;
+}
+#homebutton{
+   font-size: 70px;
+   color: inherit;
+   text-decoration: none;
+   font-family: "ABC Favorit";
+   font-weight: bolder;
+  
+}
 /*style all middle contents to center of page*/
 .empass,p,.logbuttons,.logbuttons2{
     display: flex;
@@ -53,6 +82,7 @@ footer{
     font-size: inherit;
     font-family: inherit;
     vertical-align: baseline;
+    text-decoration: none;
     display:flex;
     align-items: flex-end;
     justify-content: space-between;
