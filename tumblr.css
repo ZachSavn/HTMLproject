@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 /*set general rules for html elements*/
-html{
+html,body{
     color:#ffffff;
     font-family: "Favorit", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     background-image: url(backgroundimage.jpg);
+    margin: 0;
+    height: 100%;
+    
 }
 .content{
     max-height: 100vh;
@@ -100,7 +103,7 @@ footer>ul>li{
 footer{
     position: relative;
     width: 100%;
-    bottom: -66px;
+    bottom: 30px;
     color: inherit;
     font-size: inherit;
     font-family: inherit;
