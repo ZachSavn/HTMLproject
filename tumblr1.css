@@ -1,16 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .container {
     display: grid;
   
     grid-template-areas:
       "header header header"
-      " content"
+      ". content ."
       "footer footer footer";
   
-    grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
-  
     height: 100vh;
+    width: 100vw;
   }
 
-  
+.header{
+grid-area: header;
+
+}
+
+.main{
+    grid-area: content;
+}
+
+.footer{
+    grid-area: footer;
+}
