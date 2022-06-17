@@ -3,6 +3,16 @@
   padding: 0;
   margin: 0;
 }
+
+/* Setting the background image and the font. */
+body{
+  color:#ffffff;
+  font-family: "Favorit", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-image: url(backgroundimage.jpg);  
+}
+
+/* Setting the grid layout. */
 .container {
     display: grid;
   
@@ -18,9 +28,38 @@
     width: 100vw;
   }
 
-.header{
-grid-area: header;
+img{
+  max-width: 2;
+  max-height: 33px;
+}
 
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#search{
+  opacity: 0.5;;
+  color: white;
+  font-size:1rem;
+  padding:0;
+  line-height: 1.5;
+  width: 90vh;
+  border: thin;
+  position: absolute;
+  left: 2rem;
+  z-index: 2;
+  margin: 0;
+}
+#signup{
+  margin-left: auto;
+  margin-top: 11px;
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 70px;
 }
 
 .main{
