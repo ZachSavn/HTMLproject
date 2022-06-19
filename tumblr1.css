@@ -78,10 +78,9 @@ img{
 }
 
 /*style all middle contents to center of page*/
-.empass,p,.logbuttons,.logbuttons2{
+.empass,.legalin, .logbuttons,.logbuttons2{
    display: flex;
    flex-direction: column;
-   justify-content: center;
    align-items: center;
 }
 /*keeps links same color*/
@@ -95,12 +94,11 @@ a{
 
 }
 .legalin{
-  height: 300px;
-   font-size: 12px;
-  line-height:20px ;
+  font-size: 12px;
   padding: 10px,0px;
   margin-top: 11px;
 }
+
 /*horizontal footer*/
 
 .footer{
