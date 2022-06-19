@@ -19,12 +19,12 @@ body{
   
     grid-template-areas:
       "header"
-      "content "
+      "content"
       "footer";
   
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr 80px;
-    height: 100vh;
+    grid-template-rows:54px 1fr 80px;
+    height: 100vh; 
     width: 100vw;
   }
 
@@ -43,7 +43,7 @@ img{
 #search{
   opacity: 0.5;;
   color: white;
-  font-size:1rem;
+  font-size:inherit;
   width: 448px;
   height: 34px;
   
@@ -70,13 +70,19 @@ img{
   margin: 85px, 498px, 498px, 548px;
  
 }
+
+#email, #password{
+  width: 300px;
+  padding: 11px;
+  border-radius: 5px;
+}
+
 /*style all middle contents to center of page*/
 .empass,p,.logbuttons,.logbuttons2{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   position: relative;
 }
 /*keeps links same color*/
 a{
@@ -89,15 +95,18 @@ a{
 
 }
 .legalin{
+  height: 300px;
    font-size: 12px;
   line-height:20px ;
-  padding: 10px,0,0 10;
+  padding: 10px,0px;
+  margin-top: 11px;
 }
 /*horizontal footer*/
 
 .footer{
   grid-area: footer;
   display: flex;
+  align-items: flex-end;
 }
 
 footer>ul>li{
