@@ -32,6 +32,7 @@ body {
 img {
   max-width: 2rem;
   max-height: 33px;
+  margin-left: 20px;
 }
 
 .header {
@@ -40,6 +41,9 @@ img {
   justify-content: flex-start;
   margin-top: 11px;
 }
+.searchbar{
+  position: relative;
+}
 
 #search {
   opacity: 0.5;
@@ -47,14 +51,18 @@ img {
   font-size: inherit;
   width: 448px;
   height: 34px;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 #signup {
   margin-left: auto;
   padding: 6px;
   border-radius: 3px;
   border: none;
-  height: 30px;
-  width: 70px;
+  height: 36px;
+  width: 85px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 .main {
@@ -68,6 +76,10 @@ img {
   font-family: "ABC Favorit";
   font-weight: bolder;
   margin: 85px, 498px, 498px, 548px;
+}
+
+#email{
+margin-bottom: 5px;
 }
 
 #email,
@@ -122,6 +134,10 @@ span:before {
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
   text-decoration: line-through;
   padding: 10px;
+}
+
+#google, #apple{
+  font-weight: bold;
 }
 
 .register{
